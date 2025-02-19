@@ -1,5 +1,5 @@
 # Kokoro TTS served using Grindo, containerised in Docker
-This repo is submitted as fulfillment of the Red DragonAI - AI in Production course project (run: Feb 2025).
+This repo is submitted as fulfillment of the Red DragonAI - AI in Production course project (run: Feb 2025).<br />
 
 <p align="center">
   <img src="images/demo.jpg" alt="Kokoro TTS" />
