@@ -21,5 +21,5 @@ To start the app, follow these steps:
    docker build -t kokoro-gradio-app:v1 .
 2. **Run the container:**
     ```bash
-    docker run -p 7860:7860 -it kokoro-gradio-app
+    docker run -p 7860:7860 -it kokoro-gradio-app:v1
 After running the container, the app can be accessed at http://localhost:7860.
