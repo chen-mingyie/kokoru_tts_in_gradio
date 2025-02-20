@@ -1,4 +1,4 @@
-# Start from a Python 3.9 image
+# Start from a Python 3.11 image
 FROM python:3.11-slim
 
 # Set the working directory inside the container
@@ -14,7 +14,7 @@ COPY onnx/ /app/onnx/
 COPY voices/ /app/voices/
 
 # Install the required dependencies from the requirements.txt
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the port that Gradio uses (default is 7860)
 EXPOSE 7860
