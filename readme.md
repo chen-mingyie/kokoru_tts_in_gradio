@@ -30,4 +30,5 @@ To start the app, follow these steps:
   
   To create a public link, set `share=True` in `launch()`.
   2025-02-24 10:48:21 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+  ```
 After running the container, the app can be accessed at http://localhost:7860.
