@@ -22,4 +22,12 @@ To start the app, follow these steps:
 2. **Run the container:**
     ```bash
     docker run -it -p 7860:7860 kokoro-gradio-app:v1
+3. **Below is shown after successfully running the container:**
+   ```
+   * Running on local URL:  http://0.0.0.0:7860
+  2025-02-24 10:48:20 - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+  2025-02-24 10:48:20 - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+  
+  To create a public link, set `share=True` in `launch()`.
+  2025-02-24 10:48:21 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
 After running the container, the app can be accessed at http://localhost:7860.
