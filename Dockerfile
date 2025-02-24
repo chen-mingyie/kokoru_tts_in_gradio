@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copy the Python app script and other necessary files into the working directory
 COPY app.py /app/
+COPY utils.py /app/
 COPY requirements.txt /app/
 COPY kokoro_config.json /app/
 
