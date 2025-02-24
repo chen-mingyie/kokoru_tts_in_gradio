@@ -7,8 +7,8 @@ This repo is submitted as fulfillment of the Red DragonAI - AI in Production cou
 
 ## Overview
 
-- **Kokoro TTS** was chosen as the model. The `model_q8f16.onnx` was selected for its small model size and high speed during inference. The ONNX model ensures framework agnosticism.
-- **Grindo** was selected as the frontend to provide users with an interactive interface to engage with the model.
+- **Kokoro TTS** was chosen as the model. The `model_q8f16.onnx` was selected for its small model size and high speed during inference. The ONNX model ensures a framework-agnostic inference.
+- **Grindo** was selected as the frontend to provide users with an interactive interface to engage with the model, and to easily enable concurrency of service (set to concurrency_limit=3 in this case).
 - **Docker** was chosen as the container solution to ensure an environment-agnostic deployment.
 
 ## Setup Instructions
